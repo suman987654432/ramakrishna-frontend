@@ -1,0 +1,105 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+
+@layer base {
+
+  /* Test Söhne Font Family */
+  @font-face {
+    font-family: 'Test Söhne';
+    src: url('/fonts/TestSohne-Leicht.woff2') format('woff2'),
+      url('/fonts/TestSohne-Leicht.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Test Söhne';
+    src: url('/fonts/TestSohne-Buch.woff2') format('woff2'),
+      url('/fonts/TestSohne-Buch.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Test Söhne';
+    src: url('/fonts/TestSohne-Halbfett.woff2') format('woff2'),
+      url('/fonts/TestSohne-Halbfett.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Canela Deck Trial Font Family */
+  @font-face {
+    font-family: 'Canela Deck Trial';
+    src: url('/fonts/CanelaDeck-Regular-Trial.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Canela Deck Trial';
+    src: url('/fonts/CanelaDeck-Bold-Trial.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Canela Deck Trial';
+    src: url('/fonts/CanelaDeck-BoldItalic-Trial.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Canela Text Trial';
+    src: url('/fonts/CanelaText-Light-Trial.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .delay-600 {
+    animation-delay: 600ms;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

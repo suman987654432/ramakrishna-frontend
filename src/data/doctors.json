@@ -1,0 +1,652 @@
+[
+    {
+        "id": 4,
+        "name": " Mamatha Harish",
+        "qualification": "MBBS, DNB, DGO",
+        "experience": "19+ Years",
+        "designation": "Consultant",
+        "department": "Obstetrics & Gynecology",
+        "specialties": [],
+        "subRoles": [
+            "Obstetrician, Gynaecologist, & Infertility Specialist"
+        ],
+        "areasOfExpertise": [
+            "Major Gynecological Surgeries (TAH, VH with PFR, Non-Descent Vaginal Hysterectomy)",
+            "Advanced Laparoscopic Surgeries like TLH, LAVH, Lap Ovarian Cystectomy, uterine fibroids, Hysterectomy, Ovarian cyst removal, Endometriosis and Hysteroscopic Procedures",
+            "High Risk Pregnancies like Hypertension, Diabetes, Recurrent Pregnancy loss, Twin gestation, IUGR etc",
+            "Pre-Pregnancy Care and Delivery",
+            "Prenatal Care and Counselling",
+            "Management of High-Risk Pregnancy",
+            "Infertility evaluation and Treatment (IUI) & IVF",
+            "Contraceptive Advice",
+            "Adolescence Health",
+            "Mensural disorders and Menopause health",
+            "Dilation and curettage, hysterectomy, oophorectomy, tubal ligation, and other surgical procedures",
+            "Laparoscopic, diagnostic and emergency procedures"
+        ],
+        "schedule": "5:30 PM - 9:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/gyna/drmamatha_JuQeGZ2FV.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 19,
+        "name": " Chethan Kumar",
+        "qualification": "MBBS, MS",
+        "experience": "10+ Years",
+        "designation": "Consultant",
+        "department": "Orthopaedics",
+        "specialties": [
+            "Orthopedics"
+        ],
+        "subRoles": [
+            "Department of Orthopaedic and Sports Medicine"
+        ],
+        "areasOfExpertise": [
+            "Joint Replacement & Revision Surgery: Specializes in Hip and Knee Replacements and revisions, utilizing minimally invasive techniques for faster recovery.",
+            "Arthroscopy and Sports Medicine: Expert in treating sports injuries and performing arthroscopic procedures for shoulder, knee, and ankle conditions.",
+            "Spine Surgery: Focuses on managing spinal disorders including Disc Herniations, Spinal Stenosis, and Degenerative Spine conditions.",
+            "Trauma and Fracture Care: Experienced in handling complex fractures and trauma cases with a multidisciplinary approach.",
+            "Pediatric Orthopaedics: Offers specialized care for children's orthopaedic conditions, including congenital deformities and growth-related issues."
+        ],
+        "schedule": "1:00 PM - 4:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/ortho/drchetan_PXv4ZYxVF.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 10,
+        "name": "Kishor Rao  ",
+        "qualification": "MBBS, MS",
+        "experience": "12+ Years",
+        "designation": "Senior Consultant",
+        "department": "Neurology",
+        "specialties": [
+            "Neurology"
+        ],
+        "subRoles": [
+            "Neuro Surgeon"
+        ],
+        "areasOfExpertise": [
+            "Headache",
+            "Stroke",
+            "Cervical Spondylosis, Backache and Sciatica",
+            "Degenerative Spine disorders",
+            "Dynamic Spine Stabilization",
+            "Minimal Access Spine Surgery (MASS)",
+            "Posterior Stabilization Devices",
+            "Slipped Disc Spinal",
+            "Brain & Spine tumors",
+            "Spinal Injuries",
+            "Tumours Total Disc Replacement (TDR)"
+        ],
+        "schedule": "8:00 AM & 5:00 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/neuro/drkishor_z7Pexp9sy.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 49,
+        "name": "Vinod",
+        "qualification": "MBBS, MD, IDCCM, CCEBDM",
+        "experience": "16+ Years",
+        "designation": "Consultant",
+        "department": "General Physician",
+        "specialties": [
+            "General Physician"
+        ],
+        "subRoles": [
+            "General Physician"
+        ],
+        "areasOfExpertise": [
+            "Diagnosis & Treatment of Common Illnesses (Fever, Infections, Flu, etc.)",
+            "Chronic Disease Management (Diabetes, Hypertension, Asthma, Arthritis)",
+            "Preventive Healthcare (Health Check-ups, Screenings, Vaccinations)",
+            "Management of Lifestyle Diseases (Obesity, High Cholesterol, Stress)",
+            "Infectious Diseases (Dengue, Typhoid, Hepatitis, Tuberculosis)",
+            "Gastrointestinal Disorders (Acidity, Indigestion, Irritable Bowel Syndrome - IBS)",
+            "Respiratory Conditions (Cough, Asthma, Bronchitis, Allergies)",
+            "Coordination with Specialists When Advanced Care Is Needed"
+        ],
+        "schedule": "9:30 AM - 4:00 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/general/drvinod_3d2jx8O0m.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 8,
+        "name": " Vivekananda",
+        "qualification": "MBBS, MD, IDPCCM",
+        "experience": "10+ Years",
+        "designation": "Consultant",
+        "department": "Pediatrics",
+        "specialties": [
+            "Pediatrics"
+        ],
+        "subRoles": [
+            "Paediatrician",
+            "Paediatric Intensivist",
+            "Neonatologist"
+        ],
+        "areasOfExpertise": [
+            "Outpatient and Inpatient care for Children and Neonates",
+            "New Born Care & Immunization of New Born & Children",
+            "Neonatal resuscitation and Intensive care, including Level 3 NICU & PICU",
+            "Handling Paediatric Emergencies and night calls",
+            "Conducting health check-ups, and supervising camps",
+            "Research experience focusing on topics related to Paediatric Healthcare and Neonatology"
+        ],
+        "schedule": "9:30 AM - 1:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/pedia/drvivek_XozIRGsXn.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 13,
+        "name": " Radha D S",
+        "qualification": "MBBS,DGO",
+        "experience": "19+ Years",
+        "designation": "Senior Consultant",
+        "department": "Obstetrics & Gynecology",
+        "specialties": [
+            "Gynaecology"
+        ],
+        "subRoles": [
+            "-Obstetrician & Gynaecologist"
+        ],
+        "areasOfExpertise": [
+            "High-risk pregnancy management",
+            "Labour and delivery management",
+            "Management of menstrual disorders",
+            "Polycystic Ovary Syndrome (PCOS) management",
+            "Diagnosis and treatment of ovarian, uterine, and cervical cancers",
+            "Management of menopausal symptoms",
+            "Pelvic Health and Urogynecology",
+            "Treatment of pelvic organ prolapse",
+            "Urinary incontinence management",
+            "Pelvic pain disorders",
+            "Minimally Invasive Gynecologic Surgery",
+            "Laparoscopic and hysteroscopic surgeries",
+            "Myomectomy (fibroid removal)",
+            "Endometriosis treatment",
+            "Menstrual health education",
+            "Management of puberty-related issues",
+            "Management of hormonal disorders",
+            "Thyroid disorders in women",
+            "Family Planning and Contraception"
+        ],
+        "schedule": "10:30 AM - 12:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/gyna/drradha_LN8Jq4WVo.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 22,
+        "name": " Sujay B R",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "General Surgery",
+        "specialties": [
+            "General Surgery"
+        ],
+        "schedule": "10:30 AM - 12:30 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/general/drsujay_nnnwWSzNw.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 35,
+        "name": "Adarsh",
+        "qualification": "MBBS,MS",
+        "experience": "",
+        "designation": "Consultant",
+        "department": "Vascular Surgery",
+        "specialties": [
+            "Vascular Surgery"
+        ],
+        "subRoles": [
+            "Vascular & Endovascular Surgeon"
+        ],
+        "areasOfExpertise": [
+            "Expertise in aorto-bi-femoral, aorto-iliac, and ilio-femoral bypass procedures to address vascular issues affecting the major arteries.",
+            "Specialization in varicose vein surgeries, predominantly utilizing endo-venous ablation techniques like laser ablation, radiofrequency ablation, glue injection, and sclerotherapy.",
+            "Expertise in deep vein reconstructions, including venous angioplasty and stenting to address issues in the deep veins.",
+            "Dialysis access procedures encompass both simple and complex techniques, including the creation, salvage, and management of complications, whether acute or chronic.",
+            "Performing femoropopliteal and femoral-distal bypass surgeries to restore proper blood flow in the lower extremities.",
+            "and management of complications, whether acute or chronic.",
+            "Performing femoropopliteal and femoral-distal bypass surgeries to restore proper blood flow in the lower extremities."
+        ],
+        "schedule": "7:30 PM- 8:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/vascular/dradarsh_YYpJ9HG-f.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 2,
+        "name": " Ravi Kiran",
+        "qualification": "MBBS, MD, DNB",
+        "experience": "10+ Years",
+        "designation": "Consultant",
+        "department": "Nephrology",
+        "specialties": [
+            "Nephrology"
+        ],
+        "subRoles": [
+            "Nephrologist",
+            "Nephrology Intensivist"
+        ],
+        "areasOfExpertise": [
+            "Evaluation and management of patients with kidney diseases and chronic kidney disease",
+            "Dialysis care for patients with kidney failure",
+            "Management of hypertension (high blood pressure)",
+            "Management of electrolyte imbalances",
+            "Prevention and management of kidney stones",
+            "Pre-dialysis and post-transplant care",
+            "Glomerular diseases and glomerulonephritis"
+        ],
+        "schedule": "5:30 PM - 6:30 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/nephro/drravi_r4j9q30cXw.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 15,
+        "name": "Anakha  ",
+        "qualification": "",
+        "experience": "",
+        "designation": "Dietician ",
+        "department": "Gastroenterology",
+        "specialties": [
+            "Gastroenterology"
+        ],
+        "schedule": "9:30 AM  - 5:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/gastro/dranaka_FetoMzxk4.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 5,
+        "name": " Bhanu Prakash",
+        "qualification": "MBBS,MD, DHM",
+        "experience": "23+ Years",
+        "designation": "Senior Consultant ",
+        "department": "Dermatology",
+        "specialties": [
+            "Dermatology"
+        ],
+        "subRoles": [
+            "Dermatologist"
+        ],
+        "areasOfExpertise": [
+            "Clinical Dermatology",
+            "Dermatosurgery",
+            "Cosmetology",
+            "Paediatrics Dermatology",
+            "Dermatopathology",
+            "Atopic Dermatitis",
+            "Facial Rejuvenation Treatment",
+            "Medical Vitiligo"
+        ],
+        "schedule": " 12:00 PM - 1:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/derma/drbhanu_ZDkDyVta7.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 6,
+        "name": "M S Palkear",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "Dermatology",
+        "specialties": [
+            "Dermatology"
+        ],
+        "schedule": " 7:30 PM - 8:30 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/derma/drmspalkear_0zVa0cbGt.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 11,
+        "name": " Arthika",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Junior Consultant",
+        "department": "Pediatrics",
+        "specialties": [
+            "Pediatrics"
+        ],
+        "schedule": "1:00 PM - 7:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/pedia/drarthika_GysjzJAiN.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 14,
+        "name": " Suma B R",
+        "qualification": "MBBS,DGO",
+        "experience": "19+ Years",
+        "designation": "Senior Consultant",
+        "department": "Obstetrics & Gynecology",
+        "specialties": [
+            "Gynaecology"
+        ],
+        "subRoles": [
+            "Obstetrician & Gynaecologist"
+        ],
+        "areasOfExpertise": [
+            "Management of high-risk pregnancies",
+            "Evaluation and management of gynaecological problems",
+            "Adolescent gynecological problem",
+            "Menopause and perimenopause management",
+            "Gynaecological malignancies - Screening and Management",
+            "Evaluation and management of fertility issues",
+            "Laparoscopic gynecological surgeries"
+        ],
+        "schedule": "12:00 PM - 3:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/gyna/drsuma_qhVrsdFpG.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 21,
+        "name": "Shashi Kumar",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "General Surgery",
+        "specialties": [
+            "General Surgery"
+        ],
+        "schedule": "10:30 AM - 12:30 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/general/drshashi_qbYflgnvs.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 46,
+        "name": "Anil Kumar H",
+        "qualification": "MBBS",
+        "experience": "17+ Years",
+        "designation": "Senior Consultant",
+        "department": "General Surgery",
+        "specialties": [
+            "General Surgery"
+        ],
+        "subRoles": [
+            "General Medicine"
+        ],
+        "areasOfExpertise": [
+            "Diagnosis & Treatment of common illnesses (fever, infections, flu, etc.)",
+            "Chronic Disease Management : Diabetes, hypertension, asthma, arthritis",
+            "Preventive Health Care : Health checkups, screenings, vaccinations",
+            "Management of Lifestyle Diseases : Obesity, high cholesterol, stress",
+            "Infectious Diseases : Dengue, typhoid, hepatitis, tuberculosis",
+            "Gastrointestinal Disorders : Acidi t y , indigestion, I B S",
+            "Respiratory Conditions : Cough, asthma , bronchitis,allergies",
+            "Coordination with Specialists when advanced care is needed"
+        ],
+        "schedule": "7:30 PM- 8:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/general/dranil_rDv_YZBAe0.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 37,
+        "name": "Shivakumar ",
+        "qualification": "MBBS, DNB,FNB",
+        "experience": "17+ Year",
+        "designation": "Senior Consultant",
+        "department": "General Surgery",
+        "specialties": [
+            "General Surgery"
+        ],
+        "areasOfExpertise": [
+            "MINIMALLY INVASIVE PROCEDURES USING SMALL INCISIONS",
+            "GALLBLADDER REMOVAL (CHOLECYSTECTOMY)",
+            "APPENDIX REMOVAL (APPENDECTOMY)",
+            "HERNIA REPAIRS",
+            "GYNECOLOGICAL LAPAROSCOPY (E.G., OVARIAN CYSTS, ENDOMETRIOSIS)",
+            "OPEN SURGICAL PROCEDURES FOR A WIDE RANGE OF CONDITIONS",
+            "THYROID & BREAST SURGERY",
+            "TRAUMA & EMERGENCY SURGERIES",
+            "GASTROINTESTINAL SURGERIES (E.G., INTESTINES, STOMACH, LIVER)",
+            "ANORECTAL DISORDERS DIAGNOSIS AND TREATMENT",
+            "PILES (HEMORRHOIDS)",
+            "FISSURES & FISTULAS",
+            "PILONIDAL SINUS TREATMENT"
+        ],
+        "schedule": "7:30 PM- 8:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/general/drshiva_z37LCTi4s.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 36,
+        "name": "Cherlopalli  ",
+        "qualification": "MBBS, MS,DHM, IFAAM,",
+        "experience": "16+ Years",
+        "designation": "Senior Consultant",
+        "department": "ENT",
+        "specialties": [
+            "ENT"
+        ],
+        "subRoles": [
+            "ENT",
+            "Head & Neck &Vestigo Specialist"
+        ],
+        "areasOfExpertise": [
+            "Microscopic Ear Surgeries",
+            "Endoscopic Nose Surgeries",
+            "Maxillofacial Surgery",
+            "Neck Surgery",
+            "Throat Surgery",
+            "Laser Vocal Cord Surgeries",
+            "Laser Tumor Removal Surgery",
+            "Endoscopic Skull Base Surgery"
+        ],
+        "schedule": "8:00 PM - 9:00 PM  ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/ent/drsunil_vXQHkO3cIM.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 17,
+        "name": "Rajegowda  ",
+        "qualification": "MBBS, MS,VIMS, DNB",
+        "experience": "05+ Years",
+        "designation": "Senior Consultant",
+        "department": "Gastroenterology",
+        "specialties": [
+            "Gastroenterology"
+        ],
+        "subRoles": [
+            "Medical Gastroenterology"
+        ],
+        "areasOfExpertise": [
+            " Liver Diseases: Hepatitis, fatty liver, cirrhosis",
+            "Irritable Bowel Syndrome (IBS) & Inflammatory Bowel Disease (IBD)",
+            "Peptic Ulcers & Gastritis",
+            "Pancreatic Disorders: Pancreatitis, enzyme deficiencies",
+            "Constipation & Diarrhea Management",
+            "Jaundice Evaluation & Treatment",
+            "Endoscopy & Colonoscopy (for diagnosis & treatment)",
+            "Swallowing Disorders & Esophageal Problems"
+        ],
+        "schedule": "06:00 PM - 08 : 00 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/gastro/drrajegowda_RovHUs0yO.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 39,
+        "name": "Gopal Krishna",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "Orthopaedics",
+        "specialties": [
+            "Orthopedics"
+        ],
+        "schedule": "10:30 AM  - 1:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/ortho/drgopal_x98Ag6wor.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 40,
+        "name": "Arjun B K ",
+        "qualification": "MBBS, MD",
+        "experience": "09+ Years",
+        "designation": "Consultant",
+        "department": "Anesthisiology",
+        "specialties": [
+            "Anesthisiology"
+        ],
+        "subRoles": [
+            "Anesthesiologist"
+        ],
+        "areasOfExpertise": [
+            "Anesthsia care",
+            "Pain management",
+            "Critical care medicine",
+            "Perioperative care",
+            "Developing anesthetic plans",
+            "Administration of anesthetics"
+        ],
+        "schedule": "9:00 AM  - 4:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drarjun_FenoevUeo.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 41,
+        "name": "Bhagath Ram  ",
+        "qualification": "MBBS,DA",
+        "experience": "15+ Years",
+        "designation": "Senior Consultant",
+        "department": "Anesthisiology",
+        "specialties": [
+            "Anesthisiology"
+        ],
+        "subRoles": [
+            "Intensivist & Anesthesiology"
+        ],
+        "areasOfExpertise": [
+            "Anesthesia care",
+            "Pain management",
+            "Critical care medicine",
+            "Perioperative care",
+            "Developing anesthetic plans",
+            "Administration of anesthetics"
+        ],
+        "schedule": "5:00 PM - 9:00PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drbhagath_8rqVqDDIP.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 43,
+        "name": "Prashanth   ",
+        "qualification": "MBBS,MD",
+        "experience": "14+ Years",
+        "designation": "Senior Consultant",
+        "department": "Radio Diagnosis",
+        "specialties": [
+            "Radio Diagnosis"
+        ],
+        "subRoles": [
+            "Radiologist"
+        ],
+        "areasOfExpertise": [
+            "Diagnostic Imaging (X-ray, CT Scan, MRI, Ultrasound)",
+            "Breast Imaging (Mammography, Breast Ultrasound, Breast MRI)",
+            "Neuroimaging (Brain and Spine CT/MRI)",
+            "Abdominal & Pelvic Imaging",
+            "Chest Imaging (Lungs, Heart, Mediastinum)",
+            "Musculoskeletal Imaging (Bones, Joints, Soft Tissues)",
+            "Vascular Imaging (Doppler Ultrasound, CT/MR Angiography)",
+            "Interventional Radiology (Minimally Invasive, Image-Guided Procedures such as Biopsies, Drainages, and Angioplasty)",
+            "Oncology Imaging (Cancer Detection, Staging, and Follow-up)"
+        ],
+        "schedule": "3:00 PM - 6:00PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drprashanth_3vR48_ig9.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 44,
+        "name": "Vinod Kolla   ",
+        "qualification": "MBBS, MD",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "Pulmonology",
+        "specialties": [
+            "Pulmonology"
+        ],
+        "subRoles": [
+            "Pulmonologist"
+        ],
+        "areasOfExpertise": [
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Asthma Diagnosis & Management",
+            "Pneumonia & Respiratory Infections",
+            "Lung Cancer Detection & Treatment",
+            "Sleep Apnea & Breathing Disorders",
+            "Pulmonary Hypertension",
+            "Interstitial Lung Diseases (e.g., Pulmonary Fibrosis)",
+            "Bronchitis & Emphysema Treatment",
+            "Pulmonary Function Testing (PFT)",
+            "Tuberculosis & Other Infections",
+            "Respiratory Failure & Ventilator Management"
+        ],
+        "schedule": "06:30 PM - 08:00 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drkolla_3nbkbxo0R.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 45,
+        "name": "Sumera",
+        "qualification": "MBBS",
+        "experience": "",
+        "designation": "Senior Consultant",
+        "department": "Radiology",
+        "specialties": [
+            "Radiology"
+        ],
+        "schedule": "9:30 PM  - 3:30 PM",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drsumera_YhpIGLGe3.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 47,
+        "name": "Keerthi",
+        "qualification": "BACHELOR OF PHYSIOTHERAPY",
+        "experience": "05+ Years",
+        "designation": "Senior Consultant",
+        "department": "Physiotherapy",
+        "specialties": [
+            "Physiotherapy"
+        ],
+        "subRoles": [
+            "Physiotherapy"
+        ],
+        "areasOfExpertise": [
+            "Proficiency in handling electro equipment, including combination therapy.",
+            "Manual therapy skills for targeted treatment approaches.",
+            "Expertise in dry needling techniques for effective pain relief.",
+            "Emphasis on patient education and adherence to home exercise programs.",
+            "A proactive approach to assessing prognosis and ensuring regular follow-ups for optimal rehabilitation outcomes."
+        ],
+        "schedule": "10:00 AM - 5:00 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drkeerthi_Meom3vQOt.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 48,
+        "name": "Nandish",
+        "qualification": "MBBS, MD,",
+        "experience": "14+ Years",
+        "designation": "Senior Consultant",
+        "department": "Radiology",
+        "specialties": [
+            "Radiology"
+        ],
+        "subRoles": [
+            "Radiologist"
+        ],
+        "areasOfExpertise": [
+            "Diagnostic Imaging: X-ray, CT Scan, MRI, Ultrasound",
+            "Breast Imaging: Mammography, Breast Ultrasound, Breast MRI",
+            "Neuroimaging: Brain and Spine CT/MRI",
+            "Abdominal & Pelvic Imaging",
+            "Chest Imaging: Lungs, Heart, Mediastinum",
+            "Musculoskeletal Imaging: Bones, Joints, Soft Tissues",
+            "Vascular Imaging: Doppler Ultrasound, CT/MR Angiography",
+            "Interventional Radiology: Minimally Invasive, Image-Guided Procedures (e.g., Biopsies, Drainages, Angioplasty)",
+            "Oncology Imaging: Cancer Detection, Staging, and Follow-up"
+        ],
+        "schedule": "6:30 PM - 9:30 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drnandish_1b9HG5rGp.webp?tr=w-800,f-auto"
+    },
+    {
+        "id": 59,
+        "name": "Amith B",
+        "qualification": "MBBS, MS,",
+        "experience": "05+ Years",
+        "designation": " Consultant",
+        "department": "Urology",
+        "specialties": [
+            "Urology"
+        ],
+        "subRoles": [
+            "Urologist"
+        ],
+        "areasOfExpertise": [
+            "Radical Prostatectomy",
+            "Laparoscopic Pyeloplasty",
+            "Ureteroscopy",
+            "Urethroplasty",
+            "Renal Transplantation",
+            "Laparoscopic Donor Nephrectomy",
+            "Uro-Oncology",
+            "TRUP",
+            "PCNL, RIRS, PCNL"
+        ],
+        "schedule": "10:30 AM - 12:00 PM ",
+        "image": "https://ik.imagekit.io/omj3ygfmb/hospital/images/others/drnandish_1b9HG5rGp.webp?tr=w-800,f-auto"
+    }
+]
