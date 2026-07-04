@@ -37,7 +37,7 @@ const Hero = () => {
             className="w-full h-auto sm:h-screen sm:object-cover sm:object-top"
           />
           {/* Overlay - Ensuring it covers the image naturally */}
-          <div className="absolute inset-0 bg-[#0e4857]/70"></div>
+          <div className="absolute inset-0 bg-[#FCA61B]/40"></div>
 
           {/* Text Overlay - Adjusted to match auto-height */}
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4 gap-3 sm:gap-10 sm:translate-y-0">
@@ -46,10 +46,10 @@ const Hero = () => {
               dangerouslySetInnerHTML={{ __html: heroData.title }}
             ></h1>
 
-            <div className="animate-fade-in delay-100 bg-[#19628D5E] rounded-full">
+            <div className="animate-fade-in delay-100 bg-[#FCA61B] rounded-full">
               <button
                 onClick={() => setIsFormOpen(true)}
-                className="px-4 py-2 bg-white/10 hover:bg-white/20 text-white font-sohne font-semibold text-[11px] sm:text-[1.125rem] rounded-full border border-white/40 active:scale-95 transition-all duration-300 flex items-center justify-center backdrop-blur-md tracking-[0.2em] uppercase cursor-pointer"
+                className="px-4 py-2  hover:bg-white/20 text-white font-sohne font-semibold text-[11px] sm:text-[1.125rem] rounded-full border border-white/40 active:scale-95 transition-all duration-300 flex items-center justify-center backdrop-blur-md tracking-[0.2em] uppercase cursor-pointer"
               >
                 BOOK APPOINTMENT
               </button>

@@ -33,7 +33,7 @@ const Excellence = () => {
             <div className="px-3 sm:px-4 lg:px-5 w-full max-w-[1800px] mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center md:items-center mb-8 sm:mb-12 md:mb-16 gap-2 md:gap-8 lg:gap-10 px-0">
                     <div className="w-full md:w-2/5 max-w-[600px] text-center md:text-left md:pl-3 lg:pl-5">
-                        <h2 className="text-[#19628D]">
+                        <h2 className="text-[#FCA61B]">
                             <span className="font-canela font-bold italic text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[40px] leading-tight tracking-normal">{excellenceData.title} </span>
                         </h2>
                     </div>

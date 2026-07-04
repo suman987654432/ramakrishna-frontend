@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import doctors1 from '../../images/doctors1.png';
-import stats from '../../images/stats.avif';
+import stats from '../../images/image.png';
 import { X } from 'lucide-react';
 import Form from '../departments/Form';
 
@@ -100,7 +100,7 @@ const DoctorHero = () => {
                         {departments.map((dept) => (
                             <span
                                 key={dept}
-                                className="px-2.5 py-1 rounded-[8px] border text-[0.75rem] sm:text-[0.875rem] font-sohne font-medium bg-white text-[#19628D] border-[#19628D] transition-all duration-300 whitespace-nowrap cursor-default hover:border-[#19628D]"
+                                className="px-2.5 py-1 rounded-[8px] border text-[0.75rem] sm:text-[0.875rem] font-sohne font-medium bg-white text-[#19628D] border-[#FCA61B] transition-all duration-300 whitespace-nowrap cursor-default hover:border-[#19628D]"
                             >
                                 {dept}
                             </span>
@@ -179,7 +179,7 @@ const DoctorHero = () => {
                                                     setSelectedFormDept(doctor.department);
                                                     setIsFormOpen(true);
                                                 }}
-                                                className="bg-[#0FB1AB] text-white px-2.5 sm:px-4 lg:px-3 py-1.5 sm:py-2 rounded-lg font-sohne font-semibold text-[9px] sm:text-[11px] md:text-[14px] lg:text-[16px] flex items-center justify-center tracking-widest uppercase shadow-md hover:bg-[#0da09a] transition-all duration-300 whitespace-nowrap ml-4 sm:ml-8 lg:ml-6 pointer-events-auto"
+                                                className="bg-[#FCA61B] text-white px-2.5 sm:px-4 lg:px-3 py-1.5 sm:py-2 rounded-lg font-sohne font-semibold text-[9px] sm:text-[11px] md:text-[14px] lg:text-[16px] flex items-center justify-center tracking-widest uppercase shadow-md hover:bg-[#0da09a] transition-all duration-300 whitespace-nowrap ml-4 sm:ml-8 lg:ml-6 pointer-events-auto"
                                             >
                                                 Book Appointment
                                             </button>

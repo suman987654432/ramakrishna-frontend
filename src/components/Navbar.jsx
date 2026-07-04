@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-const logo = "https://ik.imagekit.io/omj3ygfmb/hospital/ads/logo_EJRohe77Nh.png?tr=w-100";
+import logo from '../images/logo.png';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 
 const Navbar = () => {
@@ -107,10 +107,10 @@ const Navbar = () => {
     <nav className="fixed top-2 sm:top-5 md:top-7 left-0 right-0 w-full flex justify-center px-4 sm:px-6 lg:px-8 z-50 font-sohne font-light">
       <div className="flex items-center w-full max-w-[1800px]">
         <a href="/" className="h-[2.5rem] w-[2.5rem] sm:h-[3.75rem] sm:w-[3.75rem] bg-white flex items-center justify-center rounded-lg shadow-[0px_7px_15.6px_-6px_#00000040] flex-shrink-0 mr-2 sm:mr-3 cursor-pointer hover:shadow-lg transition-shadow">
-          <img src={logo} alt="Logo" className="h-[1.75rem] w-[1.75rem] sm:h-[2.75rem] sm:w-[2.75rem] object-contain" />
+          <img src={logo} alt="Logo" className="h-[2.25rem] w-[2.25rem] sm:h-[3.25rem] sm:w-[3.25rem] object-contain" />
         </a>
 
-        <div className="hidden lg:flex flex-1 items-center justify-between bg-[#016591]/70 rounded-lg pl-8 pr-2 h-[60px] shadow-[0px_7px_15.6px_-6px_#00000040]">
+        <div className="hidden lg:flex flex-1 items-center justify-between bg-[#FCA61B]/60 rounded-lg pl-8 pr-2 h-[60px] shadow-[0px_7px_15.6px_-6px_#00000040]">
           <div className="flex-1 flex justify-center gap-12">
             <div
               className="relative group"
@@ -123,7 +123,7 @@ const Navbar = () => {
               </a>
 
               <div className={`absolute top-full left-1/2 -translate-x-[40%] mt-4 w-[700px] transition-all duration-300 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                <div className="relative bg-[#19628DE0] rounded-xl p-3.5 border border-white/20 overflow-hidden shadow-2xl">
+                <div className="relative bg-[#FCA61B] rounded-xl p-3.5 border border-white/20 overflow-hidden shadow-2xl">
                   <div className="grid grid-cols-3 gap-x-3 gap-y-0.5">
                     {services.map((service, index) => (
                       <a
@@ -160,10 +160,10 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="bg-[#0FB1AB33] h-[40px] w-[40px] rounded-[6px] flex items-center justify-center cursor-pointer hover:bg-[#4ea8a5] border border-white/30 shadow-md">
+            <div className="bg-[#FCA61B] h-[40px] w-[40px] rounded-[6px] flex items-center justify-center cursor-pointer hover:bg-[#4ea8a5] border border-white/30 shadow-md">
               <Phone size={20} className="text-white fill-white" />
             </div>
-            <div className="bg-[#0FB1AB33] h-[40px] px-5 rounded-[6px] flex items-center justify-center cursor-pointer hover:bg-[#4ea8a5] border border-white/30 shadow-md">
+            <div className="bg-[#FCA61B] h-[40px] px-5 rounded-[6px] flex items-center justify-center cursor-pointer hover:bg-[#4ea8a5] border border-white/30 shadow-md">
               <span className="text-white font-sohne font-light text-[18px] leading-none tracking-normal">+91 - 9606970542</span>
             </div>
           </div>

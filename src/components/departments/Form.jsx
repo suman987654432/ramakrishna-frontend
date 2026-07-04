@@ -168,7 +168,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                             onChange={handleInputChange}
                             className={`w-full px-4 py-2.5 border rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-1 placeholder-black font-sohne ${errors.fullName
                                 ? 'border-red-400 focus:ring-red-300'
-                                : 'border-[#0FB1AB] focus:ring-[#0FB1AB]'
+                                : 'border-[#FCA61B] focus:ring-[#FCA61B]'
                                 }`}
                         />
                         {errors.fullName ? <p className="mt-1 text-xs text-red-600 font-sohne">{errors.fullName}</p> : null}
@@ -187,7 +187,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                             onChange={handleInputChange}
                             className={`w-full sm:w-1/3 px-4 py-2.5 border rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-1 placeholder-black font-sohne ${errors.age
                                 ? 'border-red-400 focus:ring-red-300'
-                                : 'border-[#0FB1AB] focus:ring-[#0FB1AB]'
+                                : 'border-[#FCA61B] focus:ring-[#FCA61B]'
                                 }`}
                         />
                         {errors.age ? <p className="mt-1 text-xs text-red-600 font-sohne">{errors.age}</p> : null}
@@ -195,26 +195,26 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
 
                     {/* Gender */}
                     <div>
-                        <div className={`flex items-center border rounded-lg bg-white overflow-hidden w-full sm:w-fit ${errors.gender ? 'border-red-400' : 'border-[#0FB1AB]'}`}>
+                        <div className={`flex items-center border rounded-lg bg-white overflow-hidden w-full sm:w-fit ${errors.gender ? 'border-red-400' : 'border-[#FCA61B]'}`}>
                             <span className="px-3 sm:px-4 py-2.5 text-black bg-transparent font-sohne text-sm sm:text-base whitespace-nowrap">Gender</span>
-                            <div className={`flex border-l flex-1 sm:flex-initial ${errors.gender ? 'border-red-400' : 'border-[#0FB1AB]'}`}>
+                            <div className={`flex border-l flex-1 sm:flex-initial ${errors.gender ? 'border-red-400' : 'border-[#FCA61B]'}`}>
                                 <button
                                     type="button"
                                     onClick={() => handleGenderSelect('MALE')}
                                     className={`px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold transition-colors flex-1 ${formData.gender === 'MALE'
-                                        ? 'text-[#0FB1AB] bg-[#0FB1AB]/10'
-                                        : 'text-black hover:text-[#0FB1AB]'
+                                        ? 'text-[#FCA61B] bg-[#FCA61B]/10'
+                                        : 'text-black hover:text-[#FCA61B]'
                                         }`}
                                 >
                                     MALE
                                 </button>
-                                <div className={`w-px ${errors.gender ? 'bg-red-400' : 'bg-[#0FB1AB]'}`}></div>
+                                <div className={`w-px ${errors.gender ? 'bg-red-400' : 'bg-[#FCA61B]'}`}></div>
                                 <button
                                     type="button"
                                     onClick={() => handleGenderSelect('FEMALE')}
                                     className={`px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold transition-colors flex-1 ${formData.gender === 'FEMALE'
-                                        ? 'text-[#0FB1AB] bg-[#0FB1AB]/10'
-                                        : 'text-black hover:text-[#0FB1AB]'
+                                        ? 'text-[#FCA61B] bg-[#FCA61B]/10'
+                                        : 'text-black hover:text-[#FCA61B]'
                                         }`}
                                 >
                                     FEMALE
@@ -237,7 +237,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                             onChange={handleInputChange}
                             className={`w-full px-4 py-2.5 border rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-1 placeholder-black  font-sohne ${errors.mobileNumber
                                 ? 'border-red-400 focus:ring-red-300'
-                                : 'border-[#0FB1AB] focus:ring-[#0FB1AB]'
+                                : 'border-[#FCA61B] focus:ring-[#FCA61B]'
                                 }`}
                         />
                         {errors.mobileNumber ? <p className="mt-1 text-xs text-red-600 font-sohne">{errors.mobileNumber}</p> : null}
@@ -254,7 +254,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                             onChange={handleInputChange}
                             className={`w-full px-4 py-2.5 border rounded-lg text-gray-700 bg-white focus:outline-none focus:ring-1 placeholder-black font-sohne ${errors.email
                                 ? 'border-red-400 focus:ring-red-300'
-                                : 'border-[#0FB1AB] focus:ring-[#0FB1AB]'
+                                : 'border-[#FCA61B] focus:ring-[#FCA61B]'
                                 }`}
                         />
                         {errors.email ? <p className="mt-1 text-xs text-red-600 font-sohne">{errors.email}</p> : null}
@@ -272,7 +272,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                             rows="4"
                             className={`w-full px-4 py-2.5 border rounded-lg text-gray-700 bg-gray-50 focus:outline-none focus:ring-1 placeholder-black italic text-sm font-sohne ${errors.concern
                                 ? 'border-red-400 focus:ring-red-300'
-                                : 'border-[#0FB1AB] focus:ring-[#0FB1AB]'
+                                : 'border-[#FCA61B] focus:ring-[#FCA61B]'
                                 }`}
                         ></textarea>
                         {errors.concern ? <p className="mt-1 text-xs text-red-600 font-sohne">{errors.concern}</p> : null}
@@ -296,8 +296,8 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                                 type="button"
                                 onClick={() => handleAreaSelect(area)}
                                 className={`px-3 py-1.5 border rounded-lg text-xs font-bold transition-all duration-200 uppercase ${formData.affectedArea.includes(area)
-                                    ? 'bg-[#0FB1AB]/10 border-[#0FB1AB] text-[#0FB1AB]'
-                                    : 'bg-white border-[#0FB1AB] text-gray-600 hover:border-[#0FB1AB] hover:text-[#0FB1AB]'
+                                    ? 'bg-[#FCA61B]/10 border-[#FCA61B] text-[#FCA61B]'
+                                    : 'bg-white border-[#FCA61B] text-gray-600 hover:border-[#FCA61B] hover:text-[#FCA61B]'
                                     }`}
                             >
                                 {area}
@@ -312,7 +312,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                     {/* Status Messages */}
                     {status.message && (
                         <div className={`text-center p-4 rounded-xl text-sm font-bold tracking-wide transition-all duration-300 ${status.type === 'success'
-                            ? 'bg-[#0FB1AB]/10 text-[#19628D] border border-[#0FB1AB]/20'
+                            ? 'bg-[#FCA61B]/10 text-[#19628D] border border-[#FCA61B]/20'
                             : status.type === 'error'
                                 ? 'bg-red-50 text-red-600 border border-red-100'
                                 : 'bg-[#19628D]/5 text-[#19628D]'
@@ -327,9 +327,9 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
                         <button
                             type="submit"
                             disabled={status.type === 'loading'}
-                            className={`w-auto px-10 sm:px-16 py-2.5 sm:py-3 border border-[#0FB1AB] text-[#0FB1AB] text-[13px] sm:text-sm font-extrabold uppercase rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0FB1AB] focus:ring-offset-2 tracking-wider ${status.type === 'loading'
+                            className={`w-auto px-10 sm:px-16 py-2.5 sm:py-3 border border-[#FCA61B] text-[#FCA61B] text-[13px] sm:text-sm font-extrabold uppercase rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#FCA61B] focus:ring-offset-2 tracking-wider ${status.type === 'loading'
                                 ? 'opacity-50 cursor-not-allowed'
-                                : 'hover:bg-[#0FB1AB] hover:text-white'
+                                : 'hover:bg-[#FCA61B] hover:text-white'
                                 }`}
                         >
                             {status.type === 'loading' ? 'SENDING...' : 'SUBMIT'}

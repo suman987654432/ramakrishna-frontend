@@ -100,7 +100,7 @@ const Facility = () => {
                                 </div>
 
                                 {/* Title Section */}
-                                <div className="absolute bottom-0 left-0 w-full bg-[#19628DBD] backdrop-blur-sm p-3 sm:p-4 md:p-5 lg:p-6">
+                                <div className="absolute bottom-0 left-0 w-full bg-[#FCA61B]/50  p-3 sm:p-4 md:p-5 lg:p-6">
                                     <h3 className="font-sohne font-bold text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[25px] leading-tight text-white uppercase tracking-normal">
                                         {item.title}
                                     </h3>
@@ -131,7 +131,7 @@ const Facility = () => {
                             </div>
 
                             {/* Title Section */}
-                            <div className="absolute bottom-0 left-0 w-full bg-[#19628DBD] backdrop-blur-sm p-3 sm:p-4 md:p-5 lg:p-6">
+                            <div className="absolute bottom-0 left-0 w-full bg-[#FCA61B]/50 backdrop-blur-sm p-3 sm:p-4 md:p-5 lg:p-6">
                                 <h3 className="font-sohne font-bold text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] xl:text-[26px] leading-tight text-white uppercase tracking-normal">
                                     {item.title}
                                     {/* {item.title} */}
