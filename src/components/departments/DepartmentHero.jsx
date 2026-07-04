@@ -152,7 +152,7 @@ const DepartmentHero = ({ data, doctors = [], departmentName = 'Medical' }) => {
                     department: departmentName
                 };
 
-                const response = await fetch('https://atreum.onrender.com/api/send-email', {
+                const response = await fetch('https://ramakrishna-backend.onrender.com/api/send-email', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -324,7 +324,7 @@ const DepartmentHero = ({ data, doctors = [], departmentName = 'Medical' }) => {
                             ? (image.includes('ik.imagekit.io') ? `${image}?tr=w-1400` : image)
                             : (window.location.hostname === 'localhost'
                                 ? `http://localhost:4000/uploads/${image}`
-                                : `https://atreum.onrender.com/uploads/${image}`)
+                                : `https://ramakrishna-backend.onrender.com/uploads/${image}`)
                     )}
                     alt="Background"
                     className="w-full h-full object-cover object-top lg:object-center"

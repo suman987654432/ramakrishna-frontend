@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { X, ArrowRight } from 'lucide-react';
 import Form from './common/Form';
-const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
 
 const DoctorImage = ({ doctor }) => {
     const isUploaded = doctor.image?.includes('hospital/doctors');
@@ -53,7 +53,7 @@ const DoctorsPages = () => {
         window.scrollTo(0, 0);
         const fetchDoctors = async () => {
             try {
-                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
                 const res = await fetch(`${API_BASE_URL}/api/doctors`, { cache: 'no-store' });
                 const data = await res.json();
                 setDoctors(data);
@@ -165,7 +165,7 @@ const DoctorsPages = () => {
 
                                     {/* Clinical Details - Information Hierarchy */}
                                     <div className="relative w-[65%] sm:w-[60%] md:w-[65%] flex flex-col items-start text-left gap-1 md:gap-1 z-20 pl-14 sm:pl-12 lg:pl-14 xl:pl-20 2xl:pl-32">
-                                        
+
                                         {/* Mobile Profile Navigation Arrow (Hidden on Desktop) */}
                                         <button
                                             onClick={(e) => {

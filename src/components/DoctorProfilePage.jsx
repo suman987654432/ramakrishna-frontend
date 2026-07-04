@@ -4,7 +4,7 @@ import AppointmentFormCard from './AppointmentFormCard';
 import { X } from 'lucide-react';
 import Form from './departments/Form';
 
-const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
 
 const DoctorProfilePage = () => {
     const { id } = useParams();
@@ -16,7 +16,7 @@ const DoctorProfilePage = () => {
     useEffect(() => {
         const fetchDoctor = async () => {
             try {
-                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
                 const res = await fetch(`${API_BASE_URL}/api/doctors`);
                 const data = await res.json();
                 const foundDoctor = id ? data.find(d => String(d.id) === String(id) || d._id === id) : null;

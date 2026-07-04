@@ -98,7 +98,7 @@ const AdminDashboard = () => {
     const fetchData = async () => {
         setLoading(true);
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             if (activeView === 'leads') {
                 const res = await fetch(`${API_BASE_URL}/api/leads`);
                 setLeads(await res.json());
@@ -138,7 +138,7 @@ const AdminDashboard = () => {
         e.preventDefault();
         setLoading(true);
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const formData = new FormData();
             formData.append('siteTitle', settings.siteTitle);
             formData.append('metaDescription', settings.metaDescription);
@@ -153,7 +153,7 @@ const AdminDashboard = () => {
         setLoading(true);
         const currentSettings = customSettings || homePageSettings;
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const pageData = {
                 hero: { title: currentSettings.hero.title, image: currentSettings.hero.currentImage },
                 excellence: { title: currentSettings.excellence.title, description: currentSettings.excellence.description },
@@ -241,17 +241,17 @@ const AdminDashboard = () => {
 
     const saveOrder = async (updatedDepts) => {
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const orders = updatedDepts.map(dept => ({ id: dept._id, priority: dept.priority }));
             await fetch(`${API_BASE_URL}/api/departments/reorder`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ orders }) });
         } catch (error) { console.error(error); }
     };
 
-    const handleDeleteLead = async (id) => { if (!window.confirm('Delete lead?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/leads/${id}`, { method: 'DELETE' }); if (res.ok) setLeads(prev => prev.filter(l => l._id !== id)); } catch (e) { } };
-    const handleDeleteDoctor = async (id) => { if (!window.confirm('Remove doctor?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/doctors/${id}`, { method: 'DELETE' }); if (res.ok) setDoctors(prev => prev.filter(d => d._id !== id)); } catch (e) { } };
-    const handleDeleteDept = async (id) => { if (!window.confirm('Delete department?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/departments/${id}`, { method: 'DELETE' }); if (res.ok) setDepartments(prev => prev.filter(d => d._id !== id)); } catch (e) { } };
-    const handleDeleteAds = async (id) => { if (!window.confirm('Delete ads page?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/landing-pages/${id}`, { method: 'DELETE' }); if (res.ok) setAdsPages(prev => prev.filter(p => p._id !== id)); } catch (e) { } };
-    const handleDeleteSeo = async (id) => { if (!window.confirm('Delete SEO entry?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/seo/${id}`, { method: 'DELETE' }); if (res.ok) setSeoSettings(prev => prev.filter(s => s._id !== id)); } catch (e) { } };
+    const handleDeleteLead = async (id) => { if (!window.confirm('Delete lead?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/leads/${id}`, { method: 'DELETE' }); if (res.ok) setLeads(prev => prev.filter(l => l._id !== id)); } catch (e) { } };
+    const handleDeleteDoctor = async (id) => { if (!window.confirm('Remove doctor?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/doctors/${id}`, { method: 'DELETE' }); if (res.ok) setDoctors(prev => prev.filter(d => d._id !== id)); } catch (e) { } };
+    const handleDeleteDept = async (id) => { if (!window.confirm('Delete department?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/departments/${id}`, { method: 'DELETE' }); if (res.ok) setDepartments(prev => prev.filter(d => d._id !== id)); } catch (e) { } };
+    const handleDeleteAds = async (id) => { if (!window.confirm('Delete ads page?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/landing-pages/${id}`, { method: 'DELETE' }); if (res.ok) setAdsPages(prev => prev.filter(p => p._id !== id)); } catch (e) { } };
+    const handleDeleteSeo = async (id) => { if (!window.confirm('Delete SEO entry?')) return; try { const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com'; const res = await fetch(`${API_BASE_URL}/api/seo/${id}`, { method: 'DELETE' }); if (res.ok) setSeoSettings(prev => prev.filter(s => s._id !== id)); } catch (e) { } };
 
     const handleEditDoctor = (doctor) => {
         setEditingDoctorId(doctor._id);
@@ -274,7 +274,7 @@ const AdminDashboard = () => {
     const handleAddDoctor = async (e) => {
         e.preventDefault();
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const formData = new FormData();
             formData.append('name', newDoctor.name);
             formData.append('qualification', newDoctor.qualification);
@@ -321,7 +321,7 @@ const AdminDashboard = () => {
     const handleAddDept = async (e) => {
         e.preventDefault();
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const deptData = {
                 name: newDept.name, slug: newDept.slug, priority: Number(newDept.priority),
                 hero: { image: newDept.currentHeroImage, title: newDept.heroTitle, formTitle: newDept.heroFormTitle, formSubtitle: newDept.heroFormSubtitle, concerns: newDept.heroConcerns.split(',').map(s => s.trim()).filter(s => s) },
@@ -377,7 +377,7 @@ const AdminDashboard = () => {
     const handleAddAds = async (e) => {
         e.preventDefault();
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const pageData = {
                 slug: newAds.slug,
                 hero: { title: newAds.heroTitle, subtitle: newAds.heroSubtitle, image: newAds.currentHeroImage },
@@ -412,7 +412,7 @@ const AdminDashboard = () => {
     const handleAddSeo = async (e) => {
         e.preventDefault();
         try {
-            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+            const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
             const res = await fetch(`${API_BASE_URL}/api/seo`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

@@ -70,7 +70,7 @@ const ContactSection = ({ leadSource = 'Website Form' }) => {
         // Use local backend if testing locally, otherwise use production
         const API_BASE_URL = window.location.hostname === 'localhost'
             ? 'http://localhost:4000'
-            : 'https://atreum.onrender.com';
+            : 'https://ramakrishna-backend.onrender.com';
 
         try {
             const response = await fetch(`${API_BASE_URL}/api/send-email`, {

@@ -7,19 +7,19 @@ const SEOUpdater = () => {
     useEffect(() => {
         const fetchSEO = async () => {
             try {
-                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
-                
+                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
+
                 // First get global settings
                 const globalRes = await fetch(`${API_BASE_URL}/api/settings`);
                 const globalData = await globalRes.json();
-                
+
                 let title = globalData?.siteTitle || 'Atreum Hospital';
                 let description = globalData?.metaDescription || '';
 
                 // Then try to fetch specific SEO for the current path
                 const currentPath = location.pathname;
                 const seoRes = await fetch(`${API_BASE_URL}/api/seo/by-url?url=${encodeURIComponent(currentPath)}`);
-                
+
                 if (seoRes.ok) {
                     const seoData = await seoRes.json();
                     if (seoData.metaTitle) title = seoData.metaTitle;

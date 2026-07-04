@@ -98,7 +98,7 @@ const AppointmentFormCard = ({ doctorOptions = [{ name: 'Dr. Sujay B R' }], depa
             setStatus({ type: 'loading', message: 'Sending your inquiry...' });
 
             try {
-                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
                 const HELIX_LEAD_URL = `${API_BASE_URL}/api/submit-lead`;
 
                 const payload = {

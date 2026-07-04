@@ -21,7 +21,7 @@ const AdsPage = ({ slug: propSlug }) => {
     useEffect(() => {
         const fetchPageData = async () => {
             try {
-                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+                const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
                 const res = await fetch(`${API_BASE_URL}/api/landing-pages/${slug}`, { cache: 'no-store' });
                 if (res.ok) {
                     const data = await res.json();

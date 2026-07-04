@@ -50,10 +50,10 @@ const Navbar = () => {
     const fetchDepartments = async () => {
       try {
         setLoading(true);
-        const API_BASE_URL = window.location.hostname === 'localhost' 
-          ? 'http://localhost:4000' 
-          : 'https://atreum.onrender.com';
-        
+        const API_BASE_URL = window.location.hostname === 'localhost'
+          ? 'http://localhost:4000'
+          : 'https://ramakrishna-backend.onrender.com';
+
         const response = await fetch(`${API_BASE_URL}/api/departments`);
         const data = await response.json();
         if (response.ok) {
@@ -124,21 +124,21 @@ const Navbar = () => {
 
               <div className={`absolute top-full left-1/2 -translate-x-[40%] mt-4 w-[700px] transition-all duration-300 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
                 <div className="relative bg-[#19628DE0] rounded-xl p-3.5 border border-white/20 overflow-hidden shadow-2xl">
-                    <div className="grid grid-cols-3 gap-x-3 gap-y-0.5">
-                      {services.map((service, index) => (
-                        <a
-                          key={index}
-                          href={service.path}
-                          onClick={(e) => {
-                            handleScroll(e, service.path);
-                            setIsServicesOpen(false);
-                          }}
-                          className="group flex items-center px-4 py-1.5 text-white/90 font-sohne font-normal text-[14px] leading-tight tracking-normal cursor-pointer hover:bg-white/10 hover:text-white rounded-lg transition-all"
-                        >
-                          {service.name}
-                        </a>
-                      ))}
-                    </div>
+                  <div className="grid grid-cols-3 gap-x-3 gap-y-0.5">
+                    {services.map((service, index) => (
+                      <a
+                        key={index}
+                        href={service.path}
+                        onClick={(e) => {
+                          handleScroll(e, service.path);
+                          setIsServicesOpen(false);
+                        }}
+                        className="group flex items-center px-4 py-1.5 text-white/90 font-sohne font-normal text-[14px] leading-tight tracking-normal cursor-pointer hover:bg-white/10 hover:text-white rounded-lg transition-all"
+                      >
+                        {service.name}
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

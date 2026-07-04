@@ -98,7 +98,7 @@ const Form = ({ inModal = false, department = 'Medical', leadSource = 'Website F
         setErrors({});
         setStatus({ type: 'loading', message: 'Sending your inquiry...' });
 
-        const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
+        const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
         const HELIX_LEAD_URL = `${API_BASE_URL}/api/submit-lead`;
 
         const payload = {

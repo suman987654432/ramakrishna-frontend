@@ -6,24 +6,24 @@ import Form from '../departments/Form';
 const Hero = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [heroData, setHeroData] = useState({
-      title: 'Your Journey towards <span class="font-bold italic">better </span><br class="hidden sm:block" /><span class="font-bold italic"> health</span> starts with <span class="font-bold italic">Atreum</span>',
-      image: "https://ik.imagekit.io/omj3ygfmb/hospital/images/hero_bMUqcN9Vk.avif"
+    title: 'Your Journey towards <span class="font-bold italic">better </span><br class="hidden sm:block" /><span class="font-bold italic"> health</span> starts with <span class="font-bold italic">Atreum</span>',
+    image: "https://ik.imagekit.io/omj3ygfmb/hospital/images/hero_bMUqcN9Vk.avif"
   });
 
   useEffect(() => {
-      const fetchHeroData = async () => {
-          try {
-              const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://atreum.onrender.com';
-              const res = await fetch(`${API_BASE_URL}/api/home-page`);
-              const data = await res.json();
-              if (data && data.hero) {
-                  setHeroData(data.hero);
-              }
-          } catch (error) {
-              console.error("Error fetching hero data:", error);
-          }
-      };
-      fetchHeroData();
+    const fetchHeroData = async () => {
+      try {
+        const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:4000' : 'https://ramakrishna-backend.onrender.com';
+        const res = await fetch(`${API_BASE_URL}/api/home-page`);
+        const data = await res.json();
+        if (data && data.hero) {
+          setHeroData(data.hero);
+        }
+      } catch (error) {
+        console.error("Error fetching hero data:", error);
+      }
+    };
+    fetchHeroData();
   }, []);
 
   return (
@@ -41,7 +41,7 @@ const Hero = () => {
 
           {/* Text Overlay - Adjusted to match auto-height */}
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4 gap-3 sm:gap-10 sm:translate-y-0">
-            <h1 
+            <h1
               className="text-white font-canela font-normal text-[1.4rem] sm:text-[2.625rem] md:text-[3.375rem] leading-[1.15] md:leading-[1.1] tracking-tight text-center max-w-[90%] md:max-w-none animate-fade-in"
               dangerouslySetInnerHTML={{ __html: heroData.title }}
             ></h1>

@@ -35,7 +35,7 @@ const SpecialtyPage = () => {
             try {
                 const API_BASE_URL = window.location.hostname === 'localhost'
                     ? 'http://localhost:4000'
-                    : 'https://atreum.onrender.com';
+                    : 'https://ramakrishna-backend.onrender.com';
 
                 const response = await fetch(`${API_BASE_URL}/api/departments/${slug}`);
                 const data = await response.json();
@@ -57,7 +57,7 @@ const SpecialtyPage = () => {
             try {
                 const API_BASE_URL = window.location.hostname === 'localhost'
                     ? 'http://localhost:4000'
-                    : 'https://atreum.onrender.com';
+                    : 'https://ramakrishna-backend.onrender.com';
 
                 const response = await fetch(`${API_BASE_URL}/api/doctors`);
                 const data = await response.json();

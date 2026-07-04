@@ -20,7 +20,7 @@ const DoctorSection = ({ data, onBookAppointment }) => {
       try {
         const API_BASE_URL = window.location.hostname === 'localhost'
           ? 'http://localhost:4000'
-          : 'https://atreum.onrender.com';
+          : 'https://ramakrishna-backend.onrender.com';
 
         const response = await fetch(`${API_BASE_URL}/api/doctors`);
         const data = await response.json();
@@ -112,7 +112,7 @@ const DoctorSection = ({ data, onBookAppointment }) => {
                       : (imageMap[doctor.image] || (
                         window.location.hostname === 'localhost'
                           ? `http://localhost:4000/uploads/${doctor.image}`
-                          : `https://atreum.onrender.com/uploads/${doctor.image}`
+                          : `https://ramakrishna-backend.onrender.com/uploads/${doctor.image}`
                       ))
                   }
                   alt={doctor.name}
