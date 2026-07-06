@@ -16,9 +16,9 @@ import Terms from './components/common/Terms';
 
 // Lazy load all pages so they only load when the user visits them
 const LandingPage = lazy(() => import('./pages/LandingPage'));
-const SpecialtyPage = lazy(() => import('./pages/SpecialtyPage'));
-const DoctorsPages = lazy(() => import('./components/DoctorsPages'));
-const AboutPage = lazy(() => import('./pages/AboutPage'));
+// const SpecialtyPage = lazy(() => import('./pages/SpecialtyPage'));
+// const DoctorsPages = lazy(() => import('./components/DoctorsPages'));
+// const AboutPage = lazy(() => import('./pages/AboutPage'));
 const AdsPage = lazy(() => import('./pages/AdsPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
@@ -80,9 +80,9 @@ const App = () => {
           {/* Main Website Layout */}
           <Route element={<MainLayout />}>
             <Route path='/' element={<LandingPage />} />
-            <Route path='/department/:slug' element={<SpecialtyPage />} />
-            <Route path='/doctors' element={<DoctorsPages />} />
-            <Route path='/about' element={<AboutPage />} />
+            {/* <Route path='/department/:slug' element={<SpecialtyPage />} /> */}
+            {/* <Route path='/doctors' element={<DoctorsPages />} /> */}
+            {/* <Route path='/about' element={<AboutPage />} /> */}
             <Route path='/doctor-profile' element={<DoctorProfilePage />} />
             <Route path='/doctor-profile/:id' element={<DoctorProfilePage />} />
             <Route path="/privacy" element={<Privacy />} />
