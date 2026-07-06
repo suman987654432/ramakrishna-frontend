@@ -18,17 +18,17 @@ const NotFound = () => {
                     </p>
                 </div>
             </div>
-            
+
             <p className="text-gray-500 max-w-md mx-auto mb-10 text-sm sm:text-base leading-relaxed">
                 The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
             </p>
 
             <button
-                onClick={() => navigate(isAdsContext ? '/knee-replacement' : '/')}
+                onClick={() => navigate('/')}
                 className="group flex items-center gap-3 bg-[#19628D] hover:bg-[#0FB1AB] text-white px-8 py-3.5 rounded-full font-semibold transition-all duration-300 shadow-lg shadow-[#19628D]/20 hover:shadow-[#0FB1AB]/30 active:scale-95"
             >
                 <MoveLeft className="w-5 h-5 transition-transform group-hover:-translate-x-1" />
-                {isAdsContext ? 'Return to Ads Home' : 'Return to Home'}
+                Return to Home
             </button>
         </div>
     );

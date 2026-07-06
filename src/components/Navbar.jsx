@@ -144,8 +144,8 @@ const Navbar = () => {
             </div>
 
             {[
-              { name: "Doctors", path: "/doctors" },
-              { name: "About Us", path: "/about" }
+              { name: "Doctors", path: "/" },
+              { name: "About Us", path: "/" }
             ].map((item) => (
               <a
                 key={item.name}
