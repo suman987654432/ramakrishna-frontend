@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { departmentsData } from "../../data/departmentsData";
 
-
+//
 const Excellence = () => {
     const navigate = useNavigate();
     const [showAll, setShowAll] = useState(false);
